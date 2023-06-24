@@ -19,10 +19,12 @@ pip install requirements.txt
 
 ### Contents
 Fine-tuning for the EuroSAT dataset with:
-- Fast.ai: train_fast_vit.ipynb (though the notebook could use a bit more structure)
-- Timm: train_timm_vit.ipynb
+- Fast.ai: train_fast_vit.ipynb
 - Hugging Face (+torch): train_hf_vit.ipynb
+- Timm (PyTorch Image Models): train_timm_vit.ipynb
 - TensorFlow: TODO
+
+TODO for Fast & Timm: use base ViT model pretrained on ImageNet21k instead of ViT-tiny.
 
 ### Conclusion (preliminary)
 The best results are through using Hugging Face's transformers package. This package is also relatively easy to use, well-documented and has a wide database of datasets and models.
