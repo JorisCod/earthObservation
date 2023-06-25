@@ -3,7 +3,7 @@ A repository with some examples of machine learning applications in the domain o
 Specifically, the repository is meant for image classification on the EuroSAT dataset [1,2]. The goal is to leverage different packages, in order to check:
 
 1. How easy they are to use
-2. The quality of the results, vs. [4]
+2. The quality of the results, vs. [3]
 
 For each package, a Vision Transformer (ViT) will be fine-tuned on the EuroSAT datasel, as research shows this is the best approach for multi-class image classification [4].
 
@@ -25,6 +25,8 @@ Fine-tuning for the EuroSAT dataset with:
 - TensorFlow: TODO
 
 TODO for Fast & Timm: use base ViT model pretrained on ImageNet21k instead of ViT-tiny.
+
+TODO for all: align performance metric with [3], by using 1) stratified sampling and 2) a 60-20-20 separation of the data.
 
 ### Conclusion (preliminary)
 The best results are through using Hugging Face's transformers package. This package is also relatively easy to use, well-documented and has a wide database of datasets and models.
@@ -48,4 +50,4 @@ For multi-specral and multi-temporal data, one should revert to base (Py)Torch/T
 
 <div class="csl-entry">[7] <i>GitHub - sustainlab-group/SatMAE: Official code repository for NeurIPS 2022 paper “SatMAE: Pretraining Transformers for Temporal and Multi-Spectral Satellite Imagery.”</i> (n.d.). Retrieved June 24, 2023, from https://github.com/sustainlab-group/SatMAE</div>
 
-Note: references 1-3 should be redone with Mendeley.
+Note: references 1-3 should be reformatted with Mendeley.
