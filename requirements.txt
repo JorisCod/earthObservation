@@ -1,5 +1,6 @@
 Pillow
 torch>2
 timm>0.9
+transformers
 jupyter
 ipywidgets
